@@ -1,0 +1,71 @@
+﻿<Properties StartupConfiguration="{D00EBE15-602F-46C0-ACF7-B273ACC00485}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Mission7/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/Routed.razor.g.cs">
+    <Files>
+      <File FileName="Mission7/Pages/Admin/Editor.razor" Line="20" Column="44" IsPinned="True" />
+      <File FileName="Mission7/Models/SessionBasket.cs" />
+      <File FileName="Mission7/Models/Basket.cs" />
+      <File FileName="Mission7/Models/EFBookRepository.cs" />
+      <File FileName="Mission7/Models/IBookRepository.cs" />
+      <File FileName="Mission7/Models/EFPurchaseRepository.cs" />
+      <File FileName="Mission7/Program.cs" />
+      <File FileName="Mission7/Pages/_PurchaseLayout.cshtml" />
+      <File FileName="Mission7/Pages/_ViewImports.cshtml" />
+      <File FileName="Mission7/Pages/Purchase.cshtml" />
+      <File FileName="Mission7/Pages/Admin/_imports.razor" />
+      <File FileName="Mission7/Pages/Admin/AdminLayout.razor" />
+      <File FileName="Mission7/Pages/Admin/Books.razor" />
+      <File FileName="Mission7/Pages/Admin/Details.razor" />
+      <File FileName="Mission7/Pages/Admin/Index.cshtml" />
+      <File FileName="Mission7/Pages/Admin/Purchases.razor" />
+      <File FileName="Mission7/Pages/Admin/PurchaseTable.razor" />
+      <File FileName="Mission7/Pages/Admin/Routed.razor" />
+      <File FileName="Mission7/Controllers/PurchaseController.cs" />
+      <File FileName="Mission7/Pages/Admin/Index.cshtml.cs" />
+      <File FileName="Mission7/Models/IPurchaseRepository.cs" />
+      <File FileName="Mission7/Views/Shared/BookSummary.cshtml" />
+      <File FileName="Mission7/Pages/Purchase.cshtml.cs" />
+      <File FileName="Mission7/Controllers/HomeController.cs" />
+      <File FileName="Mission7/Startup.cs" />
+      <File FileName="Mission7/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/Routed.razor.g.cs" Line="93" Column="10" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Mission7" expanded="True">
+            <Node name="Mission7" expanded="True">
+              <Node name="Components" expanded="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="Infrastructure" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Pages" expanded="True">
+                <Node name="Admin" expanded="True">
+                  <Node name="Index.cshtml" expanded="True" />
+                </Node>
+                <Node name="Purchase.cshtml" expanded="True" />
+              </Node>
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True" />
+                <Node name="Purchase" expanded="True" />
+                <Node name="Shared" expanded="True">
+                  <Node name="Components" expanded="True">
+                    <Node name="Category" expanded="True" />
+                  </Node>
+                </Node>
+              </Node>
+              <Node name="Startup.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="../../../../../../Projects/WaterProject/WaterProject/Models/EFWaterProjectRepository.cs" line="9" column="29" endLine="9" endColumn="48" offsetX="-1" offsetY="-1" expression="WaterProjectContext" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Mission7 PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
