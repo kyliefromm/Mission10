@@ -1,7 +1,8 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 using Mission7.Models;
-using Mission7.Models.ViewModels;
 
 namespace Mission7.Models
 {
@@ -14,10 +15,7 @@ namespace Mission7.Models
             context = temp;
         }
 
-
-
         public IQueryable<Book> Books => context.Books;
-
         public void SaveBook(Book b)
         {
             context.SaveChanges();
@@ -35,7 +33,7 @@ namespace Mission7.Models
             context.SaveChanges();
         }
 
+
     }
+
 }
-
-

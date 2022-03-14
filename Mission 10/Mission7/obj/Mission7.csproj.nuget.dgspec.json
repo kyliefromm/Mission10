@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/kyliefromm/Documents/GitHub/Mission 10/Mission7/Mission7.csproj": {}
+    "/Users/kyliefromm/Documents/GitHub/Mission10/Mission 10/Mission7/Mission7.csproj": {}
   },
   "projects": {
-    "/Users/kyliefromm/Documents/GitHub/Mission 10/Mission7/Mission7.csproj": {
+    "/Users/kyliefromm/Documents/GitHub/Mission10/Mission 10/Mission7/Mission7.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/kyliefromm/Documents/GitHub/Mission 10/Mission7/Mission7.csproj",
+        "projectUniqueName": "/Users/kyliefromm/Documents/GitHub/Mission10/Mission 10/Mission7/Mission7.csproj",
         "projectName": "Mission7",
-        "projectPath": "/Users/kyliefromm/Documents/GitHub/Mission 10/Mission7/Mission7.csproj",
+        "projectPath": "/Users/kyliefromm/Documents/GitHub/Mission10/Mission 10/Mission7/Mission7.csproj",
         "packagesPath": "/Users/kyliefromm/.nuget/packages/",
-        "outputPath": "/Users/kyliefromm/Documents/GitHub/Mission 10/Mission7/obj/",
+        "outputPath": "/Users/kyliefromm/Documents/GitHub/Mission10/Mission 10/Mission7/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/kyliefromm/.config/NuGet/NuGet.Config"
+          "/Users/kyliefromm/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"

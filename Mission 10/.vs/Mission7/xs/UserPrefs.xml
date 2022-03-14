@@ -1,32 +1,29 @@
 ﻿<Properties StartupConfiguration="{D00EBE15-602F-46C0-ACF7-B273ACC00485}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Mission7/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/Routed.razor.g.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Mission7/Models/Purchase.cs">
     <Files>
-      <File FileName="Mission7/Pages/Admin/Editor.razor" Line="20" Column="44" IsPinned="True" />
+      <File FileName="Mission7/Pages/Admin/Editor.razor" Line="47" Column="19" IsPinned="True" />
       <File FileName="Mission7/Models/SessionBasket.cs" />
       <File FileName="Mission7/Models/Basket.cs" />
-      <File FileName="Mission7/Models/EFBookRepository.cs" />
+      <File FileName="Mission7/Models/EFBookRepository.cs" Line="28" Column="10" />
       <File FileName="Mission7/Models/IBookRepository.cs" />
-      <File FileName="Mission7/Models/EFPurchaseRepository.cs" />
-      <File FileName="Mission7/Program.cs" />
+      <File FileName="Mission7/Models/EFPurchaseRepository.cs" Line="29" Column="1" />
+      <File FileName="Mission7/Program.cs" Line="16" Column="1" />
       <File FileName="Mission7/Pages/_PurchaseLayout.cshtml" />
       <File FileName="Mission7/Pages/_ViewImports.cshtml" />
       <File FileName="Mission7/Pages/Purchase.cshtml" />
       <File FileName="Mission7/Pages/Admin/_imports.razor" />
       <File FileName="Mission7/Pages/Admin/AdminLayout.razor" />
       <File FileName="Mission7/Pages/Admin/Books.razor" />
-      <File FileName="Mission7/Pages/Admin/Details.razor" />
-      <File FileName="Mission7/Pages/Admin/Index.cshtml" />
       <File FileName="Mission7/Pages/Admin/Purchases.razor" />
       <File FileName="Mission7/Pages/Admin/PurchaseTable.razor" />
       <File FileName="Mission7/Pages/Admin/Routed.razor" />
-      <File FileName="Mission7/Controllers/PurchaseController.cs" />
-      <File FileName="Mission7/Pages/Admin/Index.cshtml.cs" />
-      <File FileName="Mission7/Models/IPurchaseRepository.cs" />
-      <File FileName="Mission7/Views/Shared/BookSummary.cshtml" />
-      <File FileName="Mission7/Pages/Purchase.cshtml.cs" />
-      <File FileName="Mission7/Controllers/HomeController.cs" />
-      <File FileName="Mission7/Startup.cs" />
-      <File FileName="Mission7/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/Routed.razor.g.cs" Line="93" Column="10" />
+      <File FileName="Mission7/Controllers/PurchaseController.cs" Line="9" Column="1" />
+      <File FileName="Mission7/Models/BookContext.cs" Line="1" Column="1" />
+      <File FileName="Mission7/Properties/launchSettings.json" Line="19" Column="23" />
+      <File FileName="Mission7/Startup.cs" Line="37" Column="65" />
+      <File FileName="Mission7/Views/Purchase/Checkout.cshtml" Line="7" Column="45" />
+      <File FileName="Mission7/Models/ErrorViewModel.cs" Line="1" Column="1" />
+      <File FileName="Mission7/Models/Purchase.cs" Line="14" Column="44" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -36,7 +33,9 @@
               <Node name="Components" expanded="True" />
               <Node name="Controllers" expanded="True" />
               <Node name="Infrastructure" expanded="True" />
-              <Node name="Models" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="Purchase.cs" selected="True" />
+              </Node>
               <Node name="Pages" expanded="True">
                 <Node name="Admin" expanded="True">
                   <Node name="Index.cshtml" expanded="True" />
@@ -52,7 +51,18 @@
                   </Node>
                 </Node>
               </Node>
-              <Node name="Startup.cs" selected="True" />
+              <Node name="wwwroot" expanded="True">
+                <Node name="css" expanded="True" />
+                <Node name="js" expanded="True" />
+                <Node name="lib" expanded="True">
+                  <Node name="bootstrap" expanded="True">
+                    <Node name="dist" expanded="True">
+                      <Node name="css" expanded="True" />
+                    </Node>
+                  </Node>
+                  <Node name="jquery" expanded="True" />
+                </Node>
+              </Node>
             </Node>
           </Node>
         </State>
@@ -63,7 +73,7 @@
     <Watch file="../../../../../../Projects/WaterProject/WaterProject/Models/EFWaterProjectRepository.cs" line="9" column="29" endLine="9" endColumn="48" offsetX="-1" offsetY="-1" expression="WaterProjectContext" liveUpdate="False" />
   </MonoDevelop.Ide.DebuggingService.PinnedWatches>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Mission7 PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.ItemProperties.Mission7 PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

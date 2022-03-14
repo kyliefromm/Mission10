@@ -33,8 +33,8 @@ namespace Mission7.Pages
         {
             Book b = repo.Books.FirstOrDefault(x => x.BookID == bookId);
 
-            basket = HttpContext.Session.GetJson<Basket>("basket") ?? new Basket();
-            //basket.AddItem(b, 1);
+            //basket = HttpContext.Session.GetJson<Basket>("basket") ?? new Basket();
+            basket.AddItem(b, 1);
 
             //HttpContext.Session.SetJson("basket", basket);
 

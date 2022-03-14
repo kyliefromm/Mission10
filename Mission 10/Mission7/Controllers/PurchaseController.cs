@@ -5,7 +5,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using Mission7.Models;
 
-namespace WaterProject.Controllers
+namespace Mission.Controllers
+
 {
     public class PurchaseController : Controller
     {
