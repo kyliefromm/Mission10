@@ -4,18 +4,31 @@
 
 @model BooksViewModel
 
-<div class="text-center">
-<h1 class="display-4">Book information:</h1>
-</div>
-
-@foreach (Book b in Model.Books)
-{
-    <partial name="BookSummary" model="b" />
-}
 
 
-<div page-blah="@Model.PageInfo" page-action="Index" page-classes-enabled="true"
-          page-class="btn" page-class-normal="btn-outline-dark"
-          page-class-selected="btn-primary" class="btn-group pull-right m-1">
-</div>
+
+    <div class="text-center">
+        <h1 class="display-4">Book information:</h1>
+        @*bootstrap: I leaned how to put multiple images next to eachother and line them up*@
+        <picture>
+            <img src="~/lib/bookstore.jpg" class="rounded float-left" width="325" height="200" style="border-block">
+            <img src="~/lib/bookstore.jpg" class="rounded float-right" width="325" height="200" style="border-block">
+            <img src="~/lib/bookstore.jpg" class="rounded mx-auto d-block" width="325" height="200" style="border-block">
+        </picture>
+
+
+    </div>
+
+
+
+    @foreach (Book b in Model.Books)
+    {
+        <partial name="BookSummary" model="b" />
+    }
+
+
+    <div page-blah="@Model.PageInfo" page-action="Index" page-classes-enabled="true"
+              page-class="btn" page-class-normal="btn-outline-dark"
+              page-class-selected="btn-primary" class="btn-group pull-right m-1">
+    </div>
 
